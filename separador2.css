@@ -1,0 +1,118 @@
+
+.formulario{
+display: flex;
+flex-wrap: wrap;
+}
+
+.separador1ñ{
+	height: 90px;
+}
+
+.img_usu{
+margin-left:auto;
+margin-right: auto;
+display: block;
+padding-top: 50px;
+}
+
+.separador2{
+	height: 10px;
+}
+
+.formulario{
+	width: 240px;
+	height: 280px;
+	background: #F8F6F6;
+	margin-left:auto;
+margin-right: auto;
+display: block;
+border-radius:10%;
+padding: 70px 30px;
+flex-wrap: wrap;
+}
+
+.formulario a{
+
+text-decoration: none;
+font-size: 15px;
+line-height: 20px;
+color: #000000;
+}
+
+.formulario a:hover{
+	color: #424242;
+}
+
+.formulario input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.formulario2 input[type="password"]{
+border:none;
+background: transparent;
+outline: none;
+height: 40%;
+color: #000000;
+font-size: 18px;
+padding-left: 24px;
+
+}
+.formulario1 input[type="text"]{
+border:none;
+background: transparent;
+outline: none;
+height: 40%;
+color: #000000;
+font-size: 18px;
+}
+.formulario input[type="submit"]{
+
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #191f26;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.formulario input[type="submit"]:hover{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #191f26;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 20px;
+	background: #1C1F46;
+
+
+}
+
+
+.formulario2 input[type="text"]{
+	padding-left: 25px;
+}
+.formulario i{
+	position:absolute;
+	position:absolute;
+	margin-left:auto;
+margin-right: auto;
+display: flex;
+flex-wrap: wrap;
+
+	left: 542px;
+	top: 350px;
+
+}
+.formulario1 input[type="text"]{
+	padding-left: 25px;
+}
+.formulario1 i{
+	position:absolute;
+	left: 539px;
+	top: 292px ;
+	display: flex;
+flex-wrap: wrap;
+
+}
+

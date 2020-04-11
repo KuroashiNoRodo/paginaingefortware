@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.loader{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.circulo{
+	width: 2px;
+	height: 2px;
+	position: absolute;
+	animation: aparecer 4.8s infinite;
+}
+
+@keyframes aparecer {
+0%{
+	box-shadow: 1px 1px #099;
+	opacity: 0;
+}
+10%{
+	opacity: 1;
+}
+100%{
+	box-shadow: 9px 9px #00f;
+	width: 60px;
+	height: 60px;
+	top: 300px;
+	opacity: 0;
+}
+}
